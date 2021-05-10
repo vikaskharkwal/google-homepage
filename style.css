@@ -91,12 +91,12 @@ nav a {
 main {
 	/* height: 100%; */
 	width: 100%;
-	max-width: 600px;
+	max-width: 590px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: stretch;
-	margin: -10rem auto 0;
+	margin: -11rem auto 0;
 	text-align: center;
 }
 form {
@@ -139,7 +139,7 @@ form {
 	font-size: 14px;
 	background-color: var(--clr-grey-faint);
 	border: 1px solid transparent;
-	padding: 0.7rem;
+	padding: 0.5rem;
 }
 .main-button:hover {
 	border: 1px solid var(--clr-grey-darker);
