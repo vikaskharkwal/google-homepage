@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--clr-blue: #1a73e8;
+	--clr-blue-hover: #2b7de9;
+	--clr-grey-faint: #f8f9fa;
+	--clr-grey-darker: #dadce0;
+	--ff: "Roboto", sans-serif;
+}
