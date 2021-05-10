@@ -156,6 +156,7 @@ form {
 }
 
 .languages-offered {
+	margin-top: 2rem;
 	display: flex;
 	font-size: 13px;
 	justify-content: center;
@@ -172,18 +173,27 @@ form {
 }
 
 footer {
-	/* position: fixed; */
+	display: flex;
+	flex-direction: column;
 	background-color: #f2f2f2;
 	color: #70757a;
-	bottom: 0;
+}
+
+.regional-footer {
+	/* background-color: red; */
+	padding: 1rem 1.8rem;
+	font-size: 15px;
+	border-bottom: 1px solid var(--clr-grey-darker);
+}
+
+.main-footer {
 	display: flex;
 	justify-content: space-between;
-	padding: 1rem 1rem;
+	padding: 0.9rem 1.2rem;
 	font-size: 14px;
 }
 
 .foot-nav a {
 	color: inherit;
-	/* display: block; */
 	margin: 0 1rem;
 }
